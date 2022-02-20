@@ -21,7 +21,7 @@ module.exports = {
 
     // verify token and get user data out of it
     try {
-      const { data } = jwt.verify(token, secret, { maxAge: expiration });
+      const { data } = jwt.verify(token, secret, { maxAge: expiration }); //this looks RESTful. Is this what needs to be updated to GQL?
       req.user = data;
     } catch {
       console.log('Invalid token');
