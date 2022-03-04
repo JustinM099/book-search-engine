@@ -1,6 +1,6 @@
 # Book Search Engine
 
-  ### 
+  ### A search engine app where users can search for books on the Google Books API and save them to their profile.
   
 <br>
   
@@ -20,7 +20,7 @@
 
   ## Usage
   
-    This is my portfolio page, deployed as a React app. Users can navigate to find out about me, see my skills, my work, and my contact information.
+    This is an app that allows the user to create an account, log in and search for books through the Google API. They're presented with the results of their search, including an image of the book, a list of its authors, the title, and a description of the book. They are able to save books to their account, and view a list of their saved books. They are also able to delete books from their saved book list.
   
   ## Deployment
 
